@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Enfield Bullet Bikes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Royal Enfield Bullet Bikes</h1>
+            <nav>
+                <ul>
+                    <li onclick="showDetails('classic')">Bullet Classic</li>
+                    <li onclick="showDetails('standard')">Bullet Standard</li>
+                    <li onclick="showDetails('electra')">Bullet Electra</li>
+                    <li onclick="showDetails('trials')">Bullet Trials</li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="model-details">
+            <div id="classic" class="model">
+                <h2>Bullet Classic</h2>
+                <img src="assets/blue.webp" alt="Bullet Classic">
+                <p>The Bullet Classic offers a perfect blend of traditional styling with modern performance. It features a powerful 346cc engine, retro looks, and a comfortable ride.</p>
+            </div>
+            <div id="standard" class="model hidden">
+                <h2>Bullet Standard</h2>
+                <img src="/assets/HalyconBlack.webp" alt="Bullet Standard">
+                <p>The Bullet Standard is an iconic model with a timeless design. Known for its reliability and rugged performance, it has been a favorite for decades.</p>
+            </div>
+            <div id="electra" class="model hidden">
+                <h2>Bullet Electra</h2>
+                <img src="/assets/red.webp" alt="Bullet Electra">
+                <p>The Bullet Electra combines classic aesthetics with modern engineering. It offers a smoother ride with its advanced suspension and refined engine.</p>
+            </div>
+            <div id="trials" class="model hidden">
+                <h2>Bullet Trials</h2>
+                <img src="/assets/desert.webp" alt="Bullet Trials">
+                <p>The Bullet Trials is designed for those who love adventure. It features off-road capabilities with enhanced grip, stability, and handling for rugged terrains.</p>
+            
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
